@@ -81,7 +81,7 @@ class ClientProcess(Thread):
         else:
             print ("\nPut connection is OK!")
             self.conn.send(str.encode("Put connection is OK!"))
-            f=open("Temp.txt","a")
+            f=open(filename,"a")
             while 1:
                 l=self.conn.recv(1024)
                 if str(l.decode()) == "DONE":
