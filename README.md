@@ -8,13 +8,13 @@ HTTP Client and Server
 
 ------ Usage ------
 Server:
-python3 Server.py port
+python3 Server.py port\n
 Client:
 python2 Client.py hostname port command filename 
 
 ------ Example ------
 Server:
-python3 Server.py 15000
+python3 Server.py 15000\n
 Client:
 python2 Client.py localhost 15000 GET Hallo_world.txt
 
