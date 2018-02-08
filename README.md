@@ -17,7 +17,7 @@ python2 Client.py hostname port command filename
 ------ Example ------
 
 Server:
-python3 Server.py 15000\n
+python3 Server.py 15000
 
 Client:
 python2 Client.py localhost 15000 GET Hallo_world.txt
